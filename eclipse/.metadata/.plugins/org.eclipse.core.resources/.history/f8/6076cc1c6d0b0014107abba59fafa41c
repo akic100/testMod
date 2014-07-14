@@ -1,0 +1,7 @@
+import cpw.mods.fml.common.Mod;
+
+
+@Mod(modid = "testmod", name = "Test Mod", version = "1.7.2-1.0")
+public class testmod {
+
+}
