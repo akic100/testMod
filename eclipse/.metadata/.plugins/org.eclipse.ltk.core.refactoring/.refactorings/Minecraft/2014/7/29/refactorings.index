@@ -4,3 +4,19 @@
 1405355282880	Delete element
 1405355285836	Delete element
 1405356680378	Rename package 'com.akic.testmod.reference'
+1405364023066	Delete element
+1405364057136	Move package
+1405364060058	Move package
+1405364062213	Move package
+1405364066402	Delete element
+1405453347060	Move compilation unit
+1405453973240	Rename package 'com.akic.handler'
+1405453980977	Move compilation unit
+1405454140026	Rename type 'GuiConfig'
+1405668928962	Rename resource 'mapleLeaf.png'
+1405669366796	Rename resource 'mapleLeaf.name.png'
+1405670018408	Delete element
+1405670019534	Delete element
+1405670023115	Delete element
+1405686120824	Delete elements
+1405688576291	Rename package 'com.akic.testmod.Reference'
