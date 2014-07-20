@@ -1,0 +1,9 @@
+package com.akic.testmod.item;
+
+
+public class itemMapleLeaf extends testItem{
+	public itemMapleLeaf(){
+		super();
+	}
+	
+}

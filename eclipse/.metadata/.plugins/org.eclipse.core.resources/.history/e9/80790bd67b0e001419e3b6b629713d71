@@ -1,0 +1,5 @@
+package com.akic.testmod.Reference;
+
+public class ItemNames {
+	public static final String MAPLE_LEAF = "mapleLeaf";
+}

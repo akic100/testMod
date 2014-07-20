@@ -1,0 +1,11 @@
+package com.akic.testmod.blocks;
+
+import net.minecraft.block.material.Material;
+
+public class BlockFlag extends BlockTest{
+	public BlockFlag(){
+		super();
+		this.setBlockName("flag");
+	}
+	
+}

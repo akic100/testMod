@@ -1,0 +1,5 @@
+package com.akic.testmod.Reference;
+
+public class BlockNames {
+	public static final String FLAG = "flag";
+}

@@ -1,0 +1,5 @@
+package com.akic.testmod.Reference;
+
+public class Textures {
+	public static  final String RESOURCE_PREFIX = Reference.MOD_ID.toLowerCase();
+}

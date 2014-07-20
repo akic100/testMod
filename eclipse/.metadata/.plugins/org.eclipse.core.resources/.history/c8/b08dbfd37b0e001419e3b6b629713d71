@@ -1,0 +1,19 @@
+package com.akic.testmod.creativetab;
+
+import com.akic.testmod.Reference.Reference;
+import com.akic.testmod.init.ModItems;
+
+import net.minecraft.creativetab.CreativeTabs;
+
+public class CreativeTabTestMod { 
+	public static final CreativeTabs TestMod_TAB = new CreativeTabs(Reference.MOD_ID){
+		@Override
+		public Item getTabIconItem(){
+			return ModItems.mapleLeaf;
+		}
+		@Override
+		public String getTranslatedTabLabel(){
+			return Reference.MOD_NAME;
+		}
+	}
+}

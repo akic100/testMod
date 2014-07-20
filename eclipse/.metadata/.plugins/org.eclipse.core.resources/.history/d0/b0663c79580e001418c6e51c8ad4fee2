@@ -1,0 +1,10 @@
+package com.akic.testmod.blocks;
+
+public class BlockFlag extends BlockTest{
+	
+	public BlockFlag(){
+		super();
+		this.setBlockName("flag");
+	}
+
+}

@@ -1,0 +1,8 @@
+# Item Localizations
+item.testmod:mapleLeaf.name=Maple Leaf
+
+# Block Localizations
+tile.testmod:flag.name=Canadian Flag
+
+# Creative Tabs
+itemGroup.testmod=Test Mod

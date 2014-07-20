@@ -1,0 +1,26 @@
+package com.akic.testmod.item;
+
+import net.minecraft.item.ItemStack;
+
+import com.akic.testmod.Reference.Textures;
+
+public class itemMapleLeaf extends testItem{
+	public itemMapleLeaf(){
+		super();
+	}
+	
+	@Override
+	public String getUnlocalizedName(){
+		return String.format("item.%s%s", Textures.RESOURCE_PREFIX, getUnwrappedUnlocalizedName());
+	}
+	
+	@Override
+	public String getUnwrappedUnlocalizedName(String unlocalizedName){
+		return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
+	}
+	
+	@Override
+	public String getUnlocalizedName(ItemStack itemstack){
+		return String.format("item.%s%s", Textures.RESOURCE_PREFIX, getUnwrappedUnlocalizedName());
+	}
+}

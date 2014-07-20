@@ -1,0 +1,16 @@
+package com.akic.testmod.init;
+
+import com.akic.testmod.Reference.ItemNames;
+import com.akic.testmod.item.ItemMapleLeaf;
+import com.akic.testmod.item.ItemTest;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+
+public class ModItems {
+	public static final ItemTest mapleLeaf = new ItemMapleLeaf();
+	
+	
+	public static void init(){
+		GameRegistry.registerItem(mapleLeaf, ItemNames.MAPLE_LEAF);
+	}
+}

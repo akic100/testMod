@@ -1,0 +1,10 @@
+package com.akic.testmod.creativetab;
+
+import com.akic.testmod.Reference.Reference;
+import com.akic.testmod.init.ModItems;
+
+import net.minecraft.creativetab.CreativeTabs;
+
+public class CreativeTabTestMod{
+	
+}

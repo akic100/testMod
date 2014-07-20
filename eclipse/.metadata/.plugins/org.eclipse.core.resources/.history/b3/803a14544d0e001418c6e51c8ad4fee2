@@ -1,0 +1,26 @@
+package com.akic.testmod.item;
+
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+
+import com.akic.testmod.Reference.Textures;
+
+public class testItem extends Item{
+	public testItem(){
+		super();
+	}
+	
+	@Override
+	public String getUnlocalizedName(){
+		return String.format("item.%s%s", Textures.RESOURCE_PREFIX, getUnwrappedUnlocalizedName(getUnwrappedUnlocalizedName(getUnlocalizedName())));
+	}
+	
+	@Override
+	public String getUnlocalizedName(ItemStack itemstack){
+		return String.format("item.%s%s", Textures.RESOURCE_PREFIX, getUnwrappedUnlocalizedName(getUnlocalizedName(null)));
+	}
+	
+	protected String getUnwrappedUnlocalizedName(String unlocalizedName){
+		return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
+	}
+}

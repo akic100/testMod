@@ -1,0 +1,15 @@
+package com.akic.testmod.init;
+
+import com.akic.testmod.Reference.BlockNames;
+import com.akic.testmod.blocks.BlockFlag;
+import com.akic.testmod.blocks.BlockTest;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+
+public class ModBlocks {
+	public static final BlockTest flag = new BlockFlag();
+	
+	public static void init(){
+		GameRegistry.registerBlock(flag, BlockNames.FLAG);
+	}
+}

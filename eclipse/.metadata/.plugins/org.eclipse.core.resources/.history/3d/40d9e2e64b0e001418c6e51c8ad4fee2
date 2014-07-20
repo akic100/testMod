@@ -1,0 +1,14 @@
+package com.akic.testmod.item;
+
+import net.minecraft.item.ItemStack;
+
+import com.akic.testmod.Reference.Reference;
+import com.akic.testmod.Reference.Textures;
+
+public class itemMapleLeaf extends testItem{
+	public itemMapleLeaf(){
+		super();
+	}
+	
+	
+}
